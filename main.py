@@ -1,7 +1,7 @@
 import funçoes
 lista_compras = []
 
-login()
+funçoes.login()
 while True:
    funçoes.exibir_menu()
    escolha = input("Escolha uma opção (1-4): ")     
@@ -16,3 +16,5 @@ while True:
       break
    else:
       print("Opção inválida. Tente novamente.")
+   with open("Lista final de compras", "w", encoding="utf-8") as arquivo:
+      arquivo.write(f"Lista de compras :{funçoes.lista_de_compras}")
