@@ -15,3 +15,8 @@ while True:
       break
    else:
       print("Opção inválida. Tente novamente.")
+
+with open("Lista de compras", "w", encoding="utf-8") as arquivo:
+   arquivo.write("___Lista de compras___\n")
+   for i in lista_compras:
+      arquivo.write(i)
