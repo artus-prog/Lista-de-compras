@@ -3,7 +3,7 @@ lista_compras = []
 funçoes.login()
 while True:
    funçoes.exibir_menu()
-   escolha = input("Escolha uma opção (1-4): ")     
+   escolha = input("Escolha uma opção (1-5): ")     
    if escolha == '1':
       funçoes.adicionar_item(lista_compras)
    elif escolha == '2':
@@ -11,6 +11,8 @@ while True:
    elif escolha == '3':
       funçoes.visualizar_lista(lista_compras)
    elif escolha == '4':
+      funçoes.buscar_item(lista_compras)
+   elif escolha == '5':
       print("Saindo do programa... Até logo!")
       break
    else:
