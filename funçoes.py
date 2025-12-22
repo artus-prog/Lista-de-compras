@@ -23,8 +23,8 @@ def primeiro_acesso():
    senha=input("Digite a senha desejada: ")
    print(f"Seu nome de usuário é: {usuario} e sua senha é: {senha}")
    with open("login", "w", encoding="utf-8") as arquivo:
-      arquivo.write(f"Usuário: {usuario}\n")
-      arquivo.write(f"Senha: {senha}")
+      arquivo.write(f"{usuario}\n")
+      arquivo.write(senha)
    return True
 
 #Esta função serve para os acessos 
