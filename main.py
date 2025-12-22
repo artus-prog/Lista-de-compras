@@ -1,6 +1,5 @@
 import funçoes
 lista_compras = []
-funçoes.login()
 while True:
    funçoes.exibir_menu()
    escolha = input("Escolha uma opção (1-5): ")     
