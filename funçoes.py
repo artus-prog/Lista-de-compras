@@ -1,5 +1,3 @@
-
-
 #Essa função é pra mostrar o menu
 def exibir_menu():
     print("\n===== Lista de Compras =====")
