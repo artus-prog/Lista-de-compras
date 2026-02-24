@@ -1,4 +1,7 @@
 import funçoes
+import interface
+
+
 lista_compras = []
 
 while True:
