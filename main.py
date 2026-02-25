@@ -1,24 +1,24 @@
-import funçoes
+import funcoes
 import interface
 
 
 lista_compras = []
 
 while True:
-   funçoes.exibir_menu()
+   funcoes.exibir_menu()
    escolha = input("Escolha uma opção (1-5): ") 
 
    if escolha == '1':
-      funçoes.adicionar_item(lista_compras)
+      funcoes.adicionar_item()
 
    elif escolha == '2':
-      funçoes.remover_item(lista_compras)
+      funcoes.remover_item()
 
    elif escolha == '3':
-      funçoes.visualizar_lista(lista_compras)
+      funcoes.visualizar_lista()
 
    elif escolha == '4':
-      funçoes.buscar_item(lista_compras)
+      funcoes.buscar_item()
 
    elif escolha == '5':
       print("Saindo do programa... Até logo!")
